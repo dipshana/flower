@@ -1,0 +1,577 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+/* for header section */
+header{
+    text-transform: capitalize;
+    
+  
+}
+.head{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 0.5rem;
+    margin-left: 0.5rem;
+    padding: 0.2rem;
+    border-bottom: 1px solid rgb(175, 172, 172);
+    background: rgb(214, 213, 213);
+    text-align: center;
+   
+}
+.head h5{
+    margin-left: 2rem;
+    margin-top: 0.5rem;
+}
+.head img{
+    height: 2rem;
+    width: 2.5rem;
+    border-radius: 0.5rem;
+    margin-top: 0.2rem;
+}
+
+/* for nav-bar section */
+.top{
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+    background: pink;
+    /* background: rgb(169, 168, 168); */
+}
+.top .logo{
+    color: red;
+    list-style-type: none;
+    text-transform: capitalize;
+    margin-left: 1rem;
+    font-style: italic;
+}
+.top a{
+    text-decoration: none;
+}
+.navbar a{
+    text-transform: uppercase;
+    text-decoration:none;
+    margin: 2rem;
+    color: rgb(86, 10, 237);
+    font-weight: 600;
+
+}
+.navbar a:hover{
+    text-decoration: underline;
+}
+.icons{
+    color: white;
+}
+.icons a {
+    margin: 1rem;
+    border-radius: 50px;
+    background: rgb(241, 115, 241);
+    padding: 0.4rem;
+    color: white;
+}
+.icons a:hover{
+    background: rgb(198, 31, 198);
+}
+
+
+/* for hero section */
+.hero{
+    display:flex;
+    justify-content: space-around;
+    /* background: rgb(244, 243, 243); */
+    width: 100%;
+ 
+}
+.hero .one{
+   background:rgba(0,0,0,.9);
+   height: 85vh;
+   padding: 7rem;
+  line-height: 4rem;
+ 
+}
+.hero .one h1{
+    color: purple;
+text-align: center;
+text-transform: capitalize;
+font-size: 2.9rem;
+padding: 2rem;
+}
+.hero .one p{
+   color: white;
+   font-size: 1.1rem;
+   line-height: 1.8rem;
+   padding: 1.8rem;
+}
+.hero .two img{
+   
+    height: 85vh;
+}
+.hero form{
+    color: black;
+    background: white;
+padding: .5rem;
+width: 35rem;
+margin-left: 2.8rem;
+}
+.hero form select{
+background: #eee;
+padding: .8rem;
+width: 9rem;
+margin: 1rem;
+border-radius: .3rem;
+font-size: 1rem;
+color: rgba(0,0,0,.7);
+font-weight: 500;
+}
+.hero form button{
+    background: red;
+padding: .8rem;
+width: 7rem;
+margin: 1rem;
+border-radius: .3rem;
+font-size: 1rem;
+color: white;
+font-weight: 500;
+margin-left: 2.8rem;
+}
+/* main section started here */
+/* .main{
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+}
+.main .main-one img{
+    width: 430px;
+    height: 180px;
+    opacity: 0.8;
+ 
+   
+} */
+
+/* for about section */
+.about{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    /* padding: 3rem; */
+    padding-top: 4rem;
+  /* background-color: rgb(144, 140, 140); */
+  background-color: rgb(253, 237, 239);
+  
+   
+}
+.about img{
+    height: 30rem;
+    width: 40rem;
+    border-radius:6px;
+    /* margin-right: 2rem ; */
+   
+}
+.about-one h1{
+    text-transform: capitalize;
+    font-style:italic;
+    color: black;
+    text-decoration: 3px solid rgb(21, 19, 19) underline;
+    padding-bottom: 1rem;
+
+}
+.about .about-one{
+    margin-right: 5rem;
+   
+}
+.about-one p{
+    color: rgb(28, 16, 16);
+}
+.choose h1{
+    padding: 2rem;
+}
+.about-one button{
+    color: rgb(17, 16, 16);
+    background:red;
+    padding: 0.8rem;
+    width: 7rem;
+    text-transform: capitalize;
+    font-size: 1rem;
+    border-radius: 0.5rem;
+    margin-top: 4rem;
+    margin-bottom: 2rem;
+    outline: none;
+    font-weight: 500;
+    cursor: pointer;
+}
+.about-one button:hover{
+    background:rgb(177, 3, 3);
+    color: white;
+}
+
+/* for why choose us section */
+/* .choose{
+    padding: 1.5rem;
+    /* text-align: center; */
+    /* background-color: rgb(144, 140, 140);
+    margin-right: 1rem;
+}
+.choose h1{
+    color: red;
+    text-transform: capitalize;
+    text-decoration: 5px underline;
+    font-style: italic;
+}
+.choose p{
+    padding: 0.7rem;
+    margin-right: 2rem;
+}  */
+/* .product{
+    display: grid;
+    grid-template-columns: repeat(3 ,1fr);
+    padding:2rem;
+    border: saddlebrown;
+    background-color: pink;
+} */
+
+
+
+/* for product part*/
+
+section .back h1{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    padding: 1rem;
+    text-align: center;
+    background: rgb(252, 178, 197);
+ }
+ .back span{
+    color:rgb(235, 1, 98) ;
+ }
+ .product{
+   
+    display: grid;
+   grid-template-columns: repeat(4,1fr);
+   padding: .5rem;
+  gap: 1rem;
+   background-color: rgb(253, 237, 239);
+
+ }
+
+ .pro{
+    box-shadow: 0px 2px 15px rgb(0 0 0 / 10%);
+    border:1px 0px 2px 15px rgb(0 0 0 / 10%);
+    text-align: center;
+ 
+ 
+ }
+ .pro span{
+    background-color: rgb(249, 45, 79);
+    margin-right: 20rem;
+    /* padding: 0.1rem; */
+ }
+ .pro img{
+    height: 12rem;
+    width: 13rem;
+    border-radius: 100px;
+    padding: 1rem;
+    
+ }
+ .pro button{
+    padding: 0.6rem;
+    width: 5rem;
+    background-color: red;
+    border-radius:0.5rem;
+    margin-top: 0.6rem;
+ }
+ .pro button:hover{
+    color: white;
+    background: rgb(177, 3, 3);
+ }
+ 
+
+ /* .product{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    padding: 1rem;
+    background-color: rgb(253, 237, 239);
+    gap: 0.9rem;
+    text-align: center;
+ }
+ .pro{
+    border: 2px solid rgb(255, 254, 254);
+    padding: 1rem;
+    border-radius: 5px;
+    background:none;
+   width: 25rem;
+   margin: 0.5rem;
+   
+ }
+ .pro span{
+    background: rgb(183, 5, 35);
+    margin-right: 40rem;
+    color:rgb(30, 25, 25);
+ }
+ .pro img{
+    padding: 1rem;
+    height: 250px;
+    width: 250px;
+    border-radius: 10px;
+   
+ } */
+
+ /* .product{
+    padding: 1rem;
+    margin: 1rem;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    /* gap:0.1rem; */
+    /* text-align: center;
+    flex-wrap: wrap;
+    background: rgb(239, 228, 230);
+
+ }
+ .product span{
+    margin:1rem;
+ }
+ .pro{
+   
+    border: 1px solid white;
+    background: rgb(252, 168, 182);
+    border-radius: 0.5rem;
+ }
+ .pro span{
+    background-color: rgb(250, 63, 134);
+    margin-right:40rem;
+ }
+ .pro img{
+    height: 180px;
+    width: 200px;
+    padding: 0.9rem;
+    background-color: rgb(245, 146, 162)s;
+ } */
+ 
+
+
+
+/* for services section  */
+.ser{
+    margin-top: 1rem;
+    text-align: center;
+    background-color: rgb(252, 178, 197);
+    padding: 1rem;
+    text-transform: capitalize;
+}
+.ser h1{
+    color: rgb(235, 1, 98);
+}
+.ser span{
+    color: black;
+}
+.service{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    margin: 3rem 0rem 3rem 0rem;
+    background-color: rgb(253, 237, 239);
+    padding: 2rem 0rem 2rem 2rem ;
+}
+
+.ss img{
+   
+    height: 17rem;
+    width: 20rem;
+}
+.ss p{
+    padding: 2rem;
+    font-size: 1.5rem;
+    font-weight: 300;
+    text-align: center;
+    color: rgb(125, 9, 29);
+    text-transform: capitalize;
+}
+
+
+ /* for review part */
+ .back span{
+    color: rgb(235, 1, 98);
+ }
+ .revv{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 1rem;
+    background-color: rgb(253, 237, 239);
+ }
+ .review{
+    box-shadow: 0px 2px 15px rgb(0 0 0 / 10%);
+    border:1px 0px 2px 15px rgb(0 0 0 / 10%);
+   border-radius: 0.5rem;
+   background-color: white;
+   margin: 1rem;
+  
+ }
+ .star{
+    margin-top: 1rem;
+    margin-left: 1rem;
+ }
+ .star i{
+    
+    color: rgb(250, 45, 9);
+ }
+ .review p{
+ margin-top: 1rem;
+ margin-left: 0.4rem;
+ margin-right: 0.4rem;
+ }
+ .review img{
+    height:5rem;
+    width: 5rem;
+    margin-top: 1rem;
+    border-radius: 50px;
+    margin-bottom: 1rem;
+ }
+
+.qu{
+    display: flex;
+    justify-content: space-between;
+}
+.qu p{
+    margin-right: 13rem;
+    padding-top: 1rem;
+    color:rgb(221, 21, 54);
+
+}
+.qu p span{
+    color:  rgb(197, 182, 25);
+}
+.qu i{
+    margin-right: 0.5rem;
+    margin-top: 0.4rem;
+    font-size: 5rem;
+    color: rgb(174, 170, 170);
+}
+
+
+
+/* for contact section */
+.con{
+    text-align: center;
+    color:rgb(235, 1, 98) ;
+    padding: 1rem;
+    background-color: rgb(252, 178, 197);
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    
+}
+.con h1{
+    font-size: 1.5rem;
+}
+.con span{
+    color: black;
+   
+}
+.contact{
+    
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    background-color: rgb(253, 237, 239);
+    padding: 1rem;
+    gap: 1rem;
+}
+.row{
+    padding: 2rem;
+    margin-left: 2rem;
+    border: 1px solid pink;
+    gap: 1rem;
+}
+.box{
+    padding: 1rem;
+    width: 35rem;
+    outline: none;
+    
+}
+.row button{
+    background-color: red;
+    padding:0.8rem;
+    outline: none;
+    border-radius: 5px;
+    font-size: 0.8rem;
+    font-weight: 500;
+}
+.row button:hover{
+    color: white;
+    background: rgb(177, 3, 3);
+}
+.common img{
+    height: 35rem;
+    width: 47rem;
+    border:  1px solid pink;
+}
+
+
+/* .common img{
+    padding: 1rem;
+    height: 40rem;
+    width: 50rem;
+} */
+
+
+
+/* for footer part */
+.footer{
+    display:flex;
+    justify-content: space-around;
+margin-top: 2rem;
+padding: 2rem;
+background: rgb(37, 33, 33);
+gap: 4rem;
+
+}
+
+.fot h4{
+    color: white;
+}
+.fot{
+    padding: 1rem;
+
+}
+.fot-1{
+   margin-top: 1rem;
+}
+.fot li{
+    list-style-type: none;
+    color: rgb(142, 143, 143);
+    
+}
+.fot-2{
+    padding: 1rem;
+    size: 5rem
+}
+.fot a{
+  
+    font-size: 2rem;
+    color: blue;
+}
+.fot-2 i{
+   padding: .5rem;
+}
+.p{
+    color:  rgb(142, 143, 143);
+    margin-top: 2rem;
+    
+}
+.p p{
+    margin-right: 4rem;
+}
+.fot .p button{
+    margin-top: 0.5rem;
+   
+    padding: 0.8rem;
+    width: 6.8rem;
+    /* margin: 2rem; */
+    background: red;
+    color: black;
+    border-radius: 0.4rem;
+    font-size: 1rem;
+    cursor: pointer;
+    outline: none;
+}
+.fot .p button:hover{
+    color: white;
+    background: rgb(177, 3, 3);
+}
